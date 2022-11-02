@@ -1,0 +1,34 @@
+{
+    "ProjectList": [
+        {
+            "id": 1,
+            "title": "lorem1",
+            "description": "",
+            "main-image": "",
+            "tech_stack": [],
+            "live_link": "",
+            "github_link": "",
+            "project_images": []
+        },
+        {
+            "id": 2,
+            "title": "lorem2",
+            "description": "",
+            "main-image": "",
+            "tech_stack": [],
+            "live_link": "",
+            "github_link": "",
+            "project_images": []
+        },
+        {
+            "id": 3,
+            "title": "lorem3",
+            "description": "",
+            "main-image": "",
+            "tech_stack": [],
+            "live_link": "",
+            "github_link": "",
+            "project_images": []
+        }
+    ]
+}
