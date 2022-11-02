@@ -3,9 +3,20 @@
         {
             "id": 1,
             "title": "lorem1",
-            "description": "",
-            "main-image": "",
-            "tech_stack": [],
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, distinctio aperiam. Nostrum, dolores magni Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+            "main_image": "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c3BsYXNoJTIwY29sb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+            "tech_stack": {
+                "client": [
+                    "react",
+                    "material-ui"
+                ],
+                "server": [
+                    "Rapid",
+                    "api",
+                    "Geolocation"
+                ]
+            },
+            "deployment": "",
             "live_link": "",
             "github_link": "",
             "project_images": []
@@ -13,9 +24,21 @@
         {
             "id": 2,
             "title": "lorem2",
-            "description": "",
-            "main-image": "",
-            "tech_stack": [],
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, distinctio aperiam. Nostrum, dolores magni",
+            "main_image": "https://images.unsplash.com/photo-1485254767195-60704c46702e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHNwbGFzaCUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+            "tech_stack": {
+                "client": [
+                    "react",
+                    "material-ui"
+                ],
+                "server": [
+                    "google-map-api",
+                    "travel-advisor-api",
+                    "Rapid",
+                    "api",
+                    "Geolocation"
+                ]
+            },
             "live_link": "",
             "github_link": "",
             "project_images": []
@@ -23,9 +46,43 @@
         {
             "id": 3,
             "title": "lorem3",
-            "description": "",
-            "main-image": "",
-            "tech_stack": [],
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, distinctio aperiam. Nostrum, dolores magni",
+            "main_image": "https://images.unsplash.com/photo-1484820986637-7ec3e85b394f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwbGFzaCUyMGNvbG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+            "tech_stack": {
+                "client": [
+                    "react",
+                    "material-ui"
+                ],
+                "server": [
+                    "google-map-api",
+                    "travel-advisor-api",
+                    "Rapid",
+                    "api",
+                    "Geolocation"
+                ]
+            },
+            "live_link": "",
+            "github_link": "",
+            "project_images": []
+        },
+        {
+            "id": 4,
+            "title": "lorem3",
+            "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, distinctio aperiam. Nostrum, dolores magni",
+            "main_image": "https://images.unsplash.com/photo-1555448248-2571daf6344b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+            "tech_stack": {
+                "client": [
+                    "react",
+                    "material-ui"
+                ],
+                "server": [
+                    "google-map-api",
+                    "travel-advisor-api",
+                    "Rapid",
+                    "api",
+                    "Geolocation"
+                ]
+            },
             "live_link": "",
             "github_link": "",
             "project_images": []

@@ -8,15 +8,14 @@ import "./App.css";
 const App = () => {
   return (
     <>
+      <Nav />
       <div className="conatainer">
-        <Nav />
         <div className="sections">
           <div className="hero-section sec">
             <Hero />
           </div>
           <div className="showcase-section sec">
             <Showcase data={data.ProjectList} />
-            {console.log(data.ProjectList)}
           </div>
           <div className="footer-section sec">
             <Footer />

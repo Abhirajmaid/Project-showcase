@@ -1,0 +1,31 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.726), rgba(18, 18, 18, 0.502), rgba(21, 21, 21, 0.402));
+    backdrop-filter: blur(1rem);
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-mail a {
+    color: var(--primery-light);
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    font-style: none;
+    text-decoration: none;
+}
+
+.nav-section {
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
