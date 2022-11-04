@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollDown from "./ScrollDown";
 import "./style.css";
-import "../../../dist/style.css";
+import "./hero.css";
 const Hero = () => {
   return (
     <>
