@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, Hero, Showcase, Footer } from "./components";
 import data from "./data/data.json";
-
 // Style
 import "./App.css";
 
@@ -17,7 +16,7 @@ const App = () => {
           <div className="showcase-section sec">
             <Showcase data={data.ProjectList} />
           </div>
-          <div className="footer-section sec">
+          <div className="footer-section">
             <Footer />
           </div>
         </div>

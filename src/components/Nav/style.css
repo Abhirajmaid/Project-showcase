@@ -4,6 +4,7 @@
     height: 75px;
     background: linear-gradient(to bottom, rgba(10, 10, 10, 0.726), rgba(18, 18, 18, 0.502), rgba(21, 21, 21, 0.402));
     backdrop-filter: blur(1rem);
+    z-index: 99;
 }
 
 .logo img {
@@ -13,7 +14,7 @@
 
 .nav-mail a {
     color: var(--primery-light);
-    font-size: 18px;
+    font-size: clamp(14px, 10px + 1vw, 20px);
     letter-spacing: 1.2px;
     font-style: none;
     text-decoration: none;
@@ -28,4 +29,15 @@
     align-items: center;
     justify-content: space-between;
     margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav-section {
+        padding: 10px 17px;
+    }
 }

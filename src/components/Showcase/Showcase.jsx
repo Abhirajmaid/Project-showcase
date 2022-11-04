@@ -11,7 +11,8 @@ const Showcase = ({ data }) => {
         <div
           className="card-img"
           style={{
-            backgroundImage: `linear-gradient(to top, rgb(20, 20, 20), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.1)), url(${project.main_image})`,
+            // linear-gradient(to top, rgb(20, 20, 20), rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.1)),
+            backgroundImage: `linear-gradient(to top, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.1)), url(${project.main_image})`,
           }}
         ></div>
         <div className="card-desc">
@@ -42,11 +43,11 @@ const Showcase = ({ data }) => {
           </div>
           <p>{project.description}</p>
           <div className="btn-container">
-            <button className="visit-btn">
-              <a href={project.live_link}>Visit</a>
-            </button>
+            <a className="visit-btn" href={project.live_link}>
+              Visit
+            </a>
             <button className="github-btn">
-              <a href={project.github_link}>
+              <a href={project.github_link} target="_blank">
                 <Icon className="git-icon" icon="akar-icons:github-fill" />
               </a>
             </button>

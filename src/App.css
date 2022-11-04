@@ -7,7 +7,7 @@
 :root {
     --primery-light: #fcfcfc;
     --primery-light-text: #090909;
-    --primery-dark: #0c0c0c;
+    --primery-dark: #111827;
     --primery-dark-text: #fcfcfc;
 }
 
@@ -41,4 +41,17 @@ body {
     overflow: hidden;
     height: 100vh;
     max-height: 750px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.footer-section {
+    background-color: #1E293B;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+    .sec {
+        padding: 20px 27px;
+    }
 }
